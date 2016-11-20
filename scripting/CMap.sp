@@ -4,7 +4,7 @@
 #define PLUGIN_DESCRIPTION "Change insurgency map"
 #define PLUGIN_NAME "[INS] Map"
 #define PLUGIN_VERSION "1.0.0"
-#define PLUGIN_AUTHOR "Circleus"
+#define PLUGIN_AUTHOR "Neko-"
 #define PLUGIN_PREFIX "[CMap]"
 
 public Plugin:myinfo = {
