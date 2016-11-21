@@ -9,7 +9,7 @@ CMap is use to change map. It a really simple plugin. I made this because someon
 [plugins/CMap.smx](https://github.com/AzumiNeko/Insurgency/blob/master/plugins/CMap.smx?raw=true)
 
 #### Source
-[scripting/CMap.sp](https://github.com/AzumiNeko/Insurgency/tree/master/scripting/CMap.sp)
+[scripting/CMap.sp](https://github.com/AzumiNeko/Insurgency/blob/master/scripting/CMap.sp)
 
 #### Command List
 ```
