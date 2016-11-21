@@ -3,7 +3,7 @@
 
 #define PLUGIN_DESCRIPTION "Change insurgency map"
 #define PLUGIN_NAME "[INS] Map"
-#define PLUGIN_VERSION "1.0.0"
+#define PLUGIN_VERSION "1.0.1"
 #define PLUGIN_AUTHOR "Neko-"
 #define PLUGIN_PREFIX "[CMap]"
 
@@ -25,6 +25,7 @@ public Action:ChangeMap(client, args)
 {
     decl String:strMapName[64];
     decl String:strMapType[16];
+    decl String:szServerRet[1024];
 
     if(args != 2)
     {
@@ -35,7 +36,17 @@ public Action:ChangeMap(client, args)
     GetCmdArg(1, strMapName, sizeof(strMapName));
     GetCmdArg(2, strMapType, sizeof(strMapType));
 
-    ServerCommand("map %s %s", strMapName, strMapType);
+    ServerCommandEx(szServerRet, sizeof(szServerRet), "map %s %s", strMapName, strMapType);
+    PrintToConsole(client, "%s", szServerRet);
+    
+    if((szServerRet[0] != EOS) && StrContains(szServerRet, "failed", true))
+    {
+        PrintToChat(client, "%s Invalid Map!", PLUGIN_PREFIX);
+    }
+    else
+    {
+        PrintToChat(client, "%s Changing map...", PLUGIN_PREFIX);
+    }
 
     return Plugin_Handled;
 }
