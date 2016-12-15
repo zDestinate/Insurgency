@@ -2,7 +2,7 @@
 #include <sdktools>
 
 #define PLUGIN_DESCRIPTION "Change insurgency map"
-#define PLUGIN_NAME "[INS] Map"
+#define PLUGIN_NAME "[INS] CMap"
 #define PLUGIN_VERSION "1.0.2"
 #define PLUGIN_AUTHOR "Neko-"
 #define PLUGIN_PREFIX "[CMap]"
@@ -29,7 +29,7 @@ public Action:ChangeMap(client, args)
 
     if(args != 2)
     {
-        PrintToChat(client, "%s cmap <map name> <map mode>", PLUGIN_PREFIX);
+        PrintToChat(client, "%s cmap <map name> <gamemode>", PLUGIN_PREFIX);
         return Plugin_Handled;
     }
 
