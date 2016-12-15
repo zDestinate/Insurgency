@@ -14,8 +14,8 @@ Admins with flag b will able to use this command.
 
 #### Command List
 ```
-cmap <map name> <map type>
-changemap <map name> <map type>
+cmap <map name> <gamemode>
+changemap <map name> <gamemode>
 ```
 
 #### Example
