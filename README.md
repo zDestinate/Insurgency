@@ -22,4 +22,6 @@ changemap <map name> <gamemode>
 ```
 cmap sinjar_coop check
 changemap sinjar_coop check
+
+cmap sinjar hunt
 ```
