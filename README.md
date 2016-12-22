@@ -20,8 +20,8 @@ changemap <map name> <gamemode>
 
 #### Example
 ```
-cmap sinjar_coop check
-changemap sinjar_coop check
+cmap sinjar_coop checkpoint
+changemap sinjar_coop checkpoint
 
 cmap sinjar hunt
 ```
