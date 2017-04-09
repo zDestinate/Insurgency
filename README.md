@@ -1,11 +1,11 @@
 # Insurgency
 Mod for insurgency sourcemod.
 
- * <a href='#CMap'>CMap</a>
- * <a href='#botcount'>Botcount</a><br><br>
+ * <a href='#CMap'>CMap (1.0.2)</a>
+ * <a href='#botcount'>Botcount (1.0.1)</a><br><br>
 
 
-### CMap
+### CMap (1.0.2)
 CMap is use to change map. It a really simple plugin. I made this because someone saying the sm_map off from sourcemod not working in insurgency.<br>
 Admins with flag b will able to use this command.
 
@@ -30,7 +30,7 @@ cmap sinjar hunt
 ```
 
 
-### Botcount
+### Botcount (1.0.1)
 Botcount plugin is use to fix the coop bot count issue that not scaling with the amount of players in the latest patch.<br>
 There is no config file for this.<br>
 All you have to do is download and put it in your plugins folder and have it load then it finish.<br>
