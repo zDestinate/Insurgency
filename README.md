@@ -27,7 +27,7 @@ cmap sinjar_coop checkpoint
 changemap sinjar_coop checkpoint
 
 cmap sinjar hunt
-```<br><br>
+```
 
 
 ### Botcount
