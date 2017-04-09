@@ -35,7 +35,7 @@ Botcount plugin is use to fix the coop bot count issue that not scaling with the
 There is no config file for this.<br>
 All you have to do is download and put it in your plugins folder and have it load then it finish.<br>
 Would be better if you set `mp_coop_lobbysize` in your `server.cfg` to let this plugin know how many players is going to be in your server. This is just optional.<br>
-(This is a reharsh version from jared ballou coop lobby overwrite)<br><br>
+(This is a reharsh version from jared ballou coop lobby overwrite)<br>
 
 **Note:** When you first load your server, the plugin might not work. You will have to change map to have it start working.
 
