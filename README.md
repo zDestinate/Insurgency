@@ -1,7 +1,7 @@
 # Insurgency
 Mod for insurgency sourcemod.
 
- * <a href='#CMap-102'>CMap (1.0.2)</a>
+ * <a href='#cmap-102'>CMap (1.0.2)</a>
  * <a href='##botcount-101'>Botcount (1.0.1)</a><br><br>
 
 
