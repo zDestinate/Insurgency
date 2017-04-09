@@ -1,8 +1,8 @@
 # Insurgency
-Mod for insurgency sourcemod.<br><br>
+Mod for insurgency sourcemod.
 
  * <a href='#CMap'>CMap</a>
- * <a href='#botcount'>Botcount</a>
+ * <a href='#botcount'>Botcount</a><br><br>
 
 
 ### CMap
