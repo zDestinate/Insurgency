@@ -31,10 +31,10 @@ cmap sinjar hunt
 
 
 ### Botcount
-Botcount plugin is to use to fix the coop bot count issue.<br>
+Botcount plugin is to use to fix the coop bot count issue with the latest patch.<br>
 There is no config file for this.<br>
 All you have to do is download and put it in your plugins folder and have it load then it finish.<br>
-Would be better if you set `mp_coop_lobbysize` in your `server.cfg` to let this plugin know how many players is going to be in your lobby.<br>
+Would be better if you set `mp_coop_lobbysize` in your `server.cfg` to let this plugin know how many players is going to be in your server.<br>
 (This is a reharsh version from jared ballou coop lobby overwrite)<br>
 
 #### Plugin
