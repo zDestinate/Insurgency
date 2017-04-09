@@ -37,7 +37,7 @@ All you have to do is download and put it in your plugins folder and have it loa
 Would be better if you set `mp_coop_lobbysize` in your `server.cfg` to let this plugin know how many players is going to be in your server. This is just optional.<br>
 (This is a reharsh version from jared ballou coop lobby overwrite)<br>
 
-**Note:** When you first load your server, the plugin might not work. You will have to change map one time to have it start working.
+**Note:** When you first load your server, the plugin might not work. You will have to change map or reload the map one time to have it start working.
 
 #### Plugin
 [plugins/botcount.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/botcount.smx?raw=true)
