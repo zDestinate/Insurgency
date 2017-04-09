@@ -11,7 +11,7 @@ public Plugin:myinfo = {
 	name		= "[INS] Coop Bot Count Fixed",
 	author		= "Neko-",
 	description	= "Fix coop bot count",
-	version		= "1.0.0"
+	version		= "1.0.1"
 };
 
 public OnPluginStart()
@@ -20,15 +20,9 @@ public OnPluginStart()
 	HookEvent("game_init", Event_GameStart, EventHookMode_Pre);
 	HookEvent("game_start", Event_GameStart, EventHookMode_Pre);
 	HookEvent("game_newmap", Event_GameStart, EventHookMode_Pre);
-	FixBotCount();
 }
 
 public Event_GameStart(Handle:event, const String:name[], bool:dontBroadcast)
-{
-	FixBotCount();
-}
-
-public FixBotCount()
 {
 	ConVar cvar = FindConVar("mp_coop_lobbysize");
 	new Float:fvalue = GetConVarFloat(cvar);
