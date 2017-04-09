@@ -10,10 +10,10 @@ CMap is use to change map. It a really simple plugin. I made this because someon
 Admins with flag b will able to use this command.
 
 #### Plugin
-[plugins/CMap.smx](https://github.com/AzumiNeko/Insurgency/blob/master/plugins/CMap.smx?raw=true)
+[plugins/CMap.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/CMap.smx?raw=true)
 
 #### Source
-[scripting/CMap.sp](https://github.com/AzumiNeko/Insurgency/blob/master/scripting/CMap.sp)
+[scripting/CMap.sp](https://github.com/zWolfi/Insurgency/blob/master/scripting/CMap.sp)
 
 #### Command List
 ```
@@ -38,7 +38,7 @@ Would be better if you set `mp_coop_lobbysize` in your `server.cfg` to let this 
 (This is a reharsh version from jared ballou coop lobby overwrite)<br>
 
 #### Plugin
-[plugins/botcount.smx](https://github.com/AzumiNeko/Insurgency/blob/master/plugins/botcount.smx?raw=true)
+[plugins/botcount.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/botcount.smx?raw=true)
 
 #### Source
-[scripting/botcount.sp](https://github.com/AzumiNeko/Insurgency/blob/master/scripting/botcount.sp)
+[scripting/botcount.sp](https://github.com/zWolfi/Insurgency/blob/master/scripting/botcount.sp)
