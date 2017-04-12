@@ -52,7 +52,7 @@ Would be better if you set `mp_coop_lobbysize` in your `server.cfg` to let this 
 ### Limit Smoke (1.0.2)
 This is use to limit the amount of smoke player can carry. I made this one when I run vanilla server. It really useful for server that running COOP and not using custom theater.<br>
 The reason I made this is to prevent player from abusing the smoke grenades making bots just standing still.<br>
-Config file for this plugin will also auto create on run. It will locate in your cfg/sourcemod folder<br>
+Config file for this plugin will also auto create on run. It will locate in your cfg/sourcemod folder.<br>
 
 #### Plugin
 [plugins/limit_smoke.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/limit_smoke.smx?raw=true)
@@ -65,3 +65,18 @@ Config file for this plugin will also auto create on run. It will locate in your
 sm_ins_limit_smoke_enabled 1 (sets whether limit smoke are enabled)
 sm_ins_limit_smoke_amount 1 (amount of smoke that player can bring at a time)
 ```
+
+
+### Bot Flashbang (1.0.1)
+This also for coop vanilla server that don't use custom theater file.<br><br>
+
+What exactly this do?<br>
+Basically it replace the bot smoke grenade into a flashbang grenade.<br>
+If bot keep throwing smokes, players will just camp in the smoke. Bot won't able to see players but players able to see bot in smoke.<br>
+Instead of throwing smokes to give player handicap, you make them throw flashbang.<br>
+
+#### Plugin
+[plugins/bot_flashbang.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/bot_flashbang.smx?raw=true)
+
+#### Source
+[scripting/bot_flashbang.sp](https://github.com/zWolfi/Insurgency/blob/master/scripting/bot_flashbang.sp)
