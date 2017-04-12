@@ -5,7 +5,9 @@ Also mostly these plugins are for Coop Server.
 
  * <a href='#cmap-102'>CMap (1.0.2)</a>
  * <a href='#botcount-101'>Botcount (1.0.1)</a>
- * <a href='#limit-smoke-102'>Limit Smoke (1.0.2)</a><br><br>
+ * <a href='#limit-smoke-102'>Limit Smoke (1.0.2)</a>
+ * <a href='#bot-flashbang-101'>Bot Flashbang (1.0.1)</a><br><br>
+ 
 
 
 ### CMap (1.0.2)
@@ -68,7 +70,7 @@ sm_ins_limit_smoke_amount 1 (amount of smoke that player can bring at a time)
 
 
 ### Bot Flashbang (1.0.1)
-This also for coop vanilla server that don't use custom theater file.<br><br>
+This also for coop vanilla server that don't use custom theater file.<br>
 
 What exactly this do?<br>
 Basically it replace the bot smoke grenade into a flashbang grenade.<br>
