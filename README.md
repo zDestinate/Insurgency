@@ -4,7 +4,7 @@ Remember these are public plugins. There are some private one I don't share yet.
 
  * <a href='#cmap-102'>CMap (1.0.2)</a>
  * <a href='#botcount-101'>Botcount (1.0.1)</a>
- * <a href='#botcount-102'>Limit Smoke (1.0.2)</a><br><br>
+ * <a href='#limit-smoke-102'>Limit Smoke (1.0.2)</a><br><br>
 
 
 ### CMap (1.0.2)
