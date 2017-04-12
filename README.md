@@ -75,7 +75,7 @@ This also for coop vanilla server that don't use custom theater file.<br>
 What exactly this do?<br>
 Basically it replace the bot smoke grenade into a flashbang grenade.<br>
 If bot keep throwing smokes, players will just camp in the smoke. Bot won't able to see players but players able to see bot in smoke.<br>
-Instead of throwing smokes to give player handicap, you make them throw flashbang.<br>
+Instead of throwing smokes giving player handicap, you make them throw flashbang.<br>
 
 #### Plugin
 [plugins/bot_flashbang.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/bot_flashbang.smx?raw=true)
