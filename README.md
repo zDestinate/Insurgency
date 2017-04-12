@@ -1,8 +1,10 @@
 # Insurgency
-Mod for insurgency sourcemod.
+These are sourcemod plugins for insurgency.
+Remember these are public plugins. There are some private one I don't share yet...
 
  * <a href='#cmap-102'>CMap (1.0.2)</a>
- * <a href='#botcount-101'>Botcount (1.0.1)</a><br><br>
+ * <a href='#botcount-101'>Botcount (1.0.1)</a>
+ * <a href='#botcount-102'>Limit Smoke (1.0.2)</a><br><br>
 
 
 ### CMap (1.0.2)
@@ -44,3 +46,21 @@ Would be better if you set `mp_coop_lobbysize` in your `server.cfg` to let this 
 
 #### Source
 [scripting/botcount.sp](https://github.com/zWolfi/Insurgency/blob/master/scripting/botcount.sp)
+
+
+### Limit Smoke (1.0.2)
+This is use to limit the amount of smoke player can carry. I made this one when I run vanilla server. It really useful for server that running COOP and not using custom theater.<br>
+The reason I made this is to prevent player from abusing the smoke grenades making bots just standing still.<br>
+Config file for this plugin will also auto create on run. It will locate in your cfg/sourcemod folder
+
+#### Plugin
+[plugins/limit_smoke.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/limit_smoke.smx?raw=true)
+
+#### Source
+[scripting/limit_smoke.sp](https://github.com/zWolfi/Insurgency/blob/master/scripting/limit_smoke.sp)
+
+#### Command List
+```
+sm_ins_limit_smoke_enabled 1 (sets whether limit smoke are enabled)
+sm_ins_limit_smoke_amount 1 (amount of smoke that player can bring at a time)
+```
