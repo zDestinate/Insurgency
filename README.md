@@ -1,6 +1,7 @@
 # Insurgency
 These are sourcemod plugins for insurgency.<br>
-Remember these are public plugins. There are some private one I don't share yet...
+Remember these are public plugins. There are some private one I don't share yet...<br>
+Also mostly these plugins are for Coop Server.
 
  * <a href='#cmap-102'>CMap (1.0.2)</a>
  * <a href='#botcount-101'>Botcount (1.0.1)</a>
