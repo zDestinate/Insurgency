@@ -28,7 +28,7 @@ public OnPluginStart()
 
 	AutoExecConfig(true, "ins.spawn_protection");
 
-	HookEvent("game_start", Event_GameStart, EventHookMode_PostNoCopy)  ;
+	HookEvent("game_start", Event_GameStart, EventHookMode_PostNoCopy);
 	HookEvent("player_spawn", Event_PlayerSpawnPost);
 	HookEvent("round_start", Event_RoundStartPost);
 }
