@@ -49,13 +49,13 @@ public Action:Event_RoundStartPost(Handle:event, const String:name[], bool:dontB
 	//If g_bGameStarted is false, that's mean game havn't start yet. Which will use the first preround timer
 	if(!g_bGameStarted)
 	{
-		nTimerPreround = (GetConVarInt(FindConVar("mp_timer_preround_first"))) + 5;
+		nTimerPreround = GetConVarInt(FindConVar("mp_timer_preround_first"));
 		CreateTimer(float(nTimerPreround), NoMoreRoundProtection);
 	}
 	//Else game already started, we will use the normal preround timer
 	else
 	{
-		nTimerPreround = (GetConVarInt(FindConVar("mp_timer_preround"))) + 5;
+		nTimerPreround = GetConVarInt(FindConVar("mp_timer_preround"));
 		CreateTimer(float(nTimerPreround), NoMoreRoundProtection);
 	}
 }
