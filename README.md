@@ -82,3 +82,15 @@ Instead of throwing smokes giving player handicap, you make them throw flashbang
 
 #### Source
 [scripting/bot_flashbang.sp](https://github.com/zWolfi/Insurgency/blob/master/scripting/bot_flashbang.sp)
+
+
+### Spawn Protection (1.0.0)
+This spawn protection plugin will prevent player from taking any damage right away after they spawn. Obviously, you know what exactly it do.<br>
+Usually before the round start, there is a timer count down. But you also spawn before the round start. So the spawn protection will start count down. However, this plugin will add that count down timer to the spawn protection timer to prevent your spawn protection timer from running out before the round start.<br>
+This also work for Coop. You don't have to worry about the bot going to have spawn protection because they won't!
+
+#### Plugin
+[plugins/SpawnProtection.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/SpawnProtection.smx?raw=true)
+
+#### Source
+[scripting/SpawnProtection.sp](https://github.com/zWolfi/Insurgency/blob/master/scripting/SpawnProtection.sp)
