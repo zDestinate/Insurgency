@@ -107,7 +107,8 @@ This also work for Coop. You don't have to worry about the bot going to have spa
 
 
 ### Teammate Damage (1.0.0)
-This plugin is to control the teammate damage. I made this one to prevent my bots from teamkilling each other. There is a config file for this. Just install it and change anything in the config file to your liking.
+This plugin is to control the teammate damage. I made this one to prevent my bots from teamkilling each other. You can also use this in PvP Server but it will be pretty useless tho.
+There is a config file for this. Just install it and change anything in the config file to your liking.
 
 #### Plugin
 [plugins/teammate_damage.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/teammate_damage.smx?raw=true)
