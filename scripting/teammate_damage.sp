@@ -44,28 +44,31 @@ public Action:Hook_OnTakeDamage(victim, &attacker, &inflictor, &Float:damage, &d
 		return Plugin_Continue; 
 	}
 	
+	//If attacker team is same as victim team so we know they are TKing!! and attacker not same as victim
 	if ((GetClientTeam(attacker) == GetClientTeam(victim)) && (attacker != victim))
-	{		
+	{
+		//If victim is security
 		if(GetClientTeam(victim) == TEAM_SECURITY)
 		{
 			new Float:CvarDamage = GetConVarFloat(g_CvarSecurityDamage);
 			if(CvarDamage > 0.0)
 			{
 				damage *= CvarDamage;
-				return Plugin_Continue;
+				return Plugin_Changed;
 			}
 			else
 			{
 				return Plugin_Handled;
 			}
 		}
+		//else if victim is insurgent
 		else if(GetClientTeam(victim) == TEAM_INSURGENTS)
 		{
 			new Float:CvarDamage = GetConVarFloat(g_CvarInsurgentDamage);
 			if(CvarDamage > 0.0)
 			{
 				damage *= CvarDamage;
-				return Plugin_Continue;
+				return Plugin_Changed;
 			}
 			else
 			{
