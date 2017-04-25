@@ -14,7 +14,8 @@ Also mostly these plugins are for Coop Server.
  * <a href='#botcount-101'>Botcount (1.0.1)</a>
  * <a href='#limit-smoke-102'>Limit Smoke (1.0.2)</a>
  * <a href='#bot-flashbang-101'>Bot Flashbang (1.0.1)</a>
- * <a href='#spawn-protection-100'>Spawn Protection (1.0.0)</a><br><br>
+ * <a href='#spawn-protection-100'>Spawn Protection (1.0.0)</a>
+ * <a href='##teammate-damage-100'>Teammate Damage (1.0.0)</a><br><br>
  
 
 
