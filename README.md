@@ -103,3 +103,13 @@ This also work for Coop. You don't have to worry about the bot going to have spa
 
 #### Source
 [scripting/SpawnProtection.sp](https://github.com/zWolfi/Insurgency/blob/master/scripting/SpawnProtection.sp)
+
+
+### Teammate Damage (1.0.0)
+This plugin is to control the teammate damage. I made this one to prevent my bots from teamkilling each other. There is a config file for this. Just install it and change anything in the config file to your liking.
+
+#### Plugin
+[plugins/teammate_damage.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/teammate_damage.smx?raw=true)
+
+#### Source
+[scripting/teammate_damage.sp](https://github.com/zWolfi/Insurgency/blob/master/scripting/teammate_damage.sp)
