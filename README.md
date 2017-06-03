@@ -6,7 +6,7 @@ Don't forget to checkout my server.<br>
 Website: http://insurgency.ml/
 
 You can check your server info too by putting your server IP and port (port is optional. Default is 27015).<br>
-Example: http://insurgency.ml/server/74.91.115.48
+Example: http://insurgency.ml/server/66.70.180.73
 
 Also mostly these plugins are for Coop Server.
 
