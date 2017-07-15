@@ -17,7 +17,7 @@ public Plugin:myinfo =
     name = "[INS] SpawnProtection",
     author = "Neko-",
     description = "Adds spawn protection",
-    version = "1.0.0"
+    version = "1.0.1"
 }
 
 public OnPluginStart()
@@ -28,15 +28,13 @@ public OnPluginStart()
 
 	AutoExecConfig(true, "ins.spawn_protection");
 
-	HookEvent("game_start", Event_GameStart, EventHookMode_PostNoCopy);
 	HookEvent("player_spawn", Event_PlayerSpawnPost);
 	HookEvent("round_start", Event_RoundStartPost);
 }
 
-public Action:Event_GameStart(Handle:event, const String:name[], bool:dontBroadcast)
+public OnMapStart()
 {
-	//Set bool for the game that just started (After map loaded)
-	g_bGameStarted = false;
+	g_bGameStarted = true;
 }
 
 public Action:Event_RoundStartPost(Handle:event, const String:name[], bool:dontBroadcast)
@@ -104,7 +102,8 @@ public Action:Event_PlayerSpawnPost(Handle:event, const String:name[], bool:dont
 		
 		//If notify set to 1 then we will notify the player that they have spawn protection
 		if(GetConVarInt(SpawnProtectionNotify) > 0)
-			PrintToChat(client, "\x01\x07ee4142[SpawnProtection] \x01You have spawn protection for %i seconds", RoundToNearest(Time)); 
+			//PrintToChat(client, "\x01\x0759b0f9[INS] \x01\x07ee1fd0[SpawnProtection] \x01You have spawn protection for %i seconds", RoundToNearest(Time));
+			PrintCenterText(client, "You have spawn protection for %i seconds", RoundToNearest(Time));		
 	}
 	return Plugin_Continue;
 }
@@ -119,7 +118,8 @@ public Action:RemoveProtection(Handle:timer, any:client)
 		
 		//If notify set to 1 then we will notify the player that their protection have been removed
 		if(GetConVarInt(SpawnProtectionNotify) > 0)
-			PrintToChat(client, "\x01\x07ee4142[SpawnProtection] \x01You no longer have spawn protection");
+			//PrintToChat(client, "\x01\x0759b0f9[INS] \x01\x07ee1fd0[SpawnProtection] \x01You no longer have spawn protection");
+			PrintCenterText(client, "You no longer have spawn protection");
 	}
 }
 
