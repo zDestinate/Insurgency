@@ -1,12 +1,11 @@
 # Insurgency
 These are sourcemod plugins for insurgency.<br>
-Remember these are public plugins. There are some private one I don't share yet...<br>
 
 Don't forget to checkout my server.<br>
 Website: http://insurgency.ml/
 
 You can check your server info too by putting your server IP and port (port is optional. Default is 27015).<br>
-Example: http://insurgency.ml/server/108.61.136.222
+Example: http://insurgency.ml/server/108.61.136.218
 
 Also mostly these plugins are for Coop Server.
 
@@ -115,3 +114,13 @@ There is a config file for this. Just install it and change anything in the conf
 
 #### Source
 [scripting/teammate_damage.sp](https://github.com/zWolfi/Insurgency/blob/master/scripting/teammate_damage.sp)
+
+
+### Vote Kick Immunity (1.0.0)
+This plugin is to prevent player from vote kick admins using the original vote from the game. The plugin will use immunity base on sourcemod admin config. Admins with lower immunity than the other admin, will not able to vote them. If user not admin, they will only able to vote kick other user that isn't admin.
+
+#### Plugin
+[plugins/ins_kickvote_immunity.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/ins_kickvote_immunity.smx?raw=true)
+
+#### Source
+[scripting/ins_kickvote_immunity.sp](https://github.com/zWolfi/Insurgency/blob/master/scripting/ins_kickvote_immunity.sp)
