@@ -118,7 +118,7 @@ There is a config file for this. Just install it and change anything in the conf
 
 
 ### Vote Kick Immunity (1.0.0)
-This plugin is to prevent player from vote kick admins using the original vote from the game. The plugin will use immunity base on sourcemod admin config. Admin with lower immunity than the other admin, will not able to vote them. If user not admin, they will only able to vote kick other user that isn't admin.
+This plugin is to prevent player from vote kick admins using the original vote from the game. The plugin will use immunity base on sourcemod admin config (It also work with admin group config obviously). Admin with lower immunity than the other admin, will not able to vote them. If user not admin, they will only able to vote kick other user that isn't admin.
 
 #### Plugin
 [plugins/ins_kickvote_immunity.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/ins_kickvote_immunity.smx?raw=true)
