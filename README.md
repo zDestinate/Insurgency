@@ -125,3 +125,13 @@ This plugin is to prevent player from vote kick admins using the original vote f
 
 #### Source
 [scripting/ins_kickvote_immunity.sp](https://github.com/zWolfi/Insurgency/blob/master/scripting/ins_kickvote_immunity.sp)
+
+
+### No Resupply (1.0.0)
+Don't want play to resupply? This is just a simple plugin block the cvar resupply command to prevent player to resupply. It really useful for PvP server that don't want player to resupply their gears.
+
+#### Plugin
+[plugins/no_resupply.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/no_resupply.smx?raw=true)
+
+#### Source
+[scripting/no_resupply.sp](https://github.com/zWolfi/Insurgency/blob/master/scripting/no_resupply.sp)
