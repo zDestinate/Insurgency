@@ -15,7 +15,8 @@ Also mostly these plugins are for Coop Server.
  * <a href='#bot-flashbang-101'>Bot Flashbang (1.0.1)</a>
  * <a href='#spawn-protection-100'>Spawn Protection (1.0.0)</a>
  * <a href='#teammate-damage-100'>Teammate Damage (1.0.0)</a>
- * <a href='#vote-kick-immunity-100'>Vote Kick Immunity (1.0.0)</a><br><br>
+ * <a href='#vote-kick-immunity-100'>Vote Kick Immunity (1.0.0)</a>
+ * <a href='#no-resupply-100'>No Resupply (1.0.0)</a><br><br>
  
 
 
