@@ -10,7 +10,7 @@ Example: http://insurgency.ml/server/108.61.136.218
 Also mostly these plugins are for Coop Server.
 
  * <a href='#cmap-102'>CMap (1.0.2)</a>
- * <a href='#botcount-101'>Botcount (1.0.1)</a>
+ * <a href='#botcount-101'>Botcount (1.0.1) (No longer need)</a>
  * <a href='#limit-smoke-102'>Limit Smoke (1.0.2)</a>
  * <a href='#bot-flashbang-101'>Bot Flashbang (1.0.1)</a>
  * <a href='#spawn-protection-100'>Spawn Protection (1.0.0)</a>
@@ -45,14 +45,16 @@ cmap sinjar hunt
 ```
 
 
-### Botcount (1.0.1)
+### Botcount (1.0.1) (No longer need)
 Botcount plugin is use to fix the coop bot count issue that not scaling with the amount of players in the latest patch.<br>
 There is no config file for this.<br>
 All you have to do is download and put it in your plugins folder and have it load then it finish.<br>
 Would be better if you set `mp_coop_lobbysize` in your `server.cfg` to let this plugin know how many players is going to be in your server. This is just optional.<br>
 (This is a reharsh version from jared ballou coop lobby overwrite)<br><br>
 
-**Note:** When you first load your server, the plugin might not work. You will have to change map or reload the map one time to have it start working.<br>
+**Note:** When you first load your server, the plugin might not work. You will have to change map or reload the map one time to have it start working.<br><br>
+
+**NO LONGER NEED:** NWI had fix the bot issue so this plugin no longer need.<br>
 
 #### Plugin
 [plugins/botcount.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/botcount.smx?raw=true)
