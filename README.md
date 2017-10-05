@@ -2,10 +2,10 @@
 These are sourcemod plugins for insurgency.<br>
 
 Don't forget to checkout my server.<br>
-Website: http://insurgency.ml/
+Website: http://insurgency.pro/
 
 You can check your server info too by putting your server IP and port (port is optional. Default is 27015).<br>
-Example: http://insurgency.ml/server/108.61.136.218
+Example: http://insurgency.pro/server/108.61.136.218
 
 Also mostly these plugins are for Coop Server.
 
