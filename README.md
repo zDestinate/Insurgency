@@ -17,6 +17,7 @@ Also mostly these plugins are for Coop Server.
  * <a href='#teammate-damage-100'>Teammate Damage (1.0.0)</a>
  * <a href='#vote-kick-immunity-100'>Vote Kick Immunity (1.0.0)</a>
  * <a href='#no-resupply-100'>No Resupply (1.0.0)</a><br><br>
+ * <a href='#bot-aim-100'>Bot Aim (1.0.0)</a><br><br>
  
 
 
@@ -138,3 +139,11 @@ Don't want play to resupply? This is just a simple plugin block the cvar resuppl
 
 #### Source
 [scripting/no_resupply.sp](https://github.com/zWolfi/Insurgency/blob/master/scripting/no_resupply.sp)
+
+
+
+### Bot Aim (1.0.0)
+What exactly is bot aim? Bot aim is a plugin that give bot full aimbot on players. They will target the closest player and will try to headshot player with every single bullet. Its really deadly. This work really well on coop server with the highest bot difficulty.
+
+#### Plugin
+[plugins/ins_botaim.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/ins_botaim.smx?raw=true)
