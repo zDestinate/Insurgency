@@ -147,3 +147,6 @@ What exactly is bot aim? Bot aim is a plugin that give bot full aimbot on player
 
 #### Plugin
 [plugins/ins_botaim.smx](https://github.com/zWolfi/Insurgency/blob/master/plugins/ins_botaim.smx?raw=true)
+
+#### Source
+[scripting/no_resupply.sp](https://github.com/zWolfi/Insurgency/blob/master/scripting/ins_botaim.sp)
